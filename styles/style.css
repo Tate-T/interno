@@ -555,3 +555,41 @@ body {
   background-color: #F4F0EC;
   padding: 18px 22px 18px 21px;
 }
+.join-container{
+  background-color: #292F36;
+  border-radius: 70px;
+  padding-top: 100px ;
+  padding-bottom: 95px;
+  text-align: center;
+}
+.join-title{
+  color: #FFF;
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 50px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.22px;
+margin-bottom: 9px;
+}
+.join-text{
+  color: #FFF;
+text-align: center;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.22px;
+margin-bottom: 31px;
+}
+.join-button{
+  color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+background-color: #CDA274;
+border-radius: 18px;
+padding: 20px 30px ;
+
+}
