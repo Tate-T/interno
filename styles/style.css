@@ -134,12 +134,12 @@ body {
 
 .advice-arrow {  
   stroke: #CDA274;
-  fill: #CDA274;
+  fill: none;
 }
 
 .advice-arrow:hover {
   stroke: #5e4e3d;
-  fill: #CDA274;
+  fill: none;
 }
 
 .advice-item {
@@ -362,7 +362,7 @@ body {
 }
 
 .clients-modern-home:hover {
-  fill: lightblue;
+  fill: #CDA274;
 }
 
 .clients-icon-vs {
@@ -372,11 +372,41 @@ body {
  stroke: #292F36;
 }
 
+.clients-icon-vs:hover {  
+  fill: #CDA274;
+  stroke: black;
+}
+
 .clients-icon-brand { 
   width: 154px;
   height: 43px;
   fill: #292F36;
   stroke: white;
+}
+
+.clients-icon-brand:hover {
+  fill: #CDA274;
+  stroke: black;
+}
+
+.clients-nature-home {
+  width: 145px;
+  height: 45px;
+  fill: #292F36;
+}
+
+.clients-nature-home:hover {
+  fill: #CDA274;
+}
+
+.clients-icon-classic {
+  width: 117px;
+  height: 48px;
+  fill: #292F36;
+}
+
+.clients-icon-classic:hover {
+  fill: #CDA274;
 }
 
 /*projects*/
@@ -416,6 +446,11 @@ body {
   gap: 60px 20px;
 }
 
+.projects-list-item:hover {
+  border-radius: 0px 80px 0px 0px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
 .projects-img {
   max-width: 590px;
 }
@@ -449,6 +484,21 @@ body {
   height: 70px;
   border-radius: 100px;
   background: #f4f0ec;
+}
+
+.projects-button:hover {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.projects-button:hover .projects-arrow {
+  stroke: #CDA274;
+}
+
+.projects-arrow {
+  width: 9px;
+  height: 16px;
+  stroke: #292F36;
+  fill: none;
 }
 
 /* numbers section  */
@@ -543,6 +593,10 @@ body {
   margin-bottom: 40px; */
 }
 
+.blogs-item:hover {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
 /* .blogs-item:nth-child(3n) {
   margin-right: 0;
 }
@@ -564,6 +618,22 @@ body {
   border-radius: 8px 8px 8px 0px;
   background-color: #fff;
   padding: 9px 10px 11px;
+}
+
+.blogs-click:hover {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.blogs-click:hover .blogs-arrow {
+  fill: none;
+  stroke: #CDA274;
+}
+
+.blogs-arrow {
+  width: 9px;
+  height: 16px;
+  fill: none;
+  stroke: #292F36;
 }
 
 .blogs-subtitle {
@@ -698,6 +768,46 @@ body {
   display: flex;
   margin-top: 30px;
   gap: 40px;
+}
+
+.footer-icon-facebook {
+  width: 10px;
+  height: 19px;
+  fill: #292F36;
+}
+
+.footer-icon-facebook:hover {
+  fill: #CDA274;
+}
+
+.footer-icon-twitter {
+  width: 18px;
+  height: 15px;
+  fill: #292F36;
+}
+
+.footer-icon-twitter:hover {
+  fill: #CDA274;
+}
+
+.footer-icon-linkedin {
+  width: 16px;
+  height: 17px;
+  fill: #292F36;
+}
+
+.footer-icon-linkedin:hover {
+  fill: #CDA274;
+}
+
+.footer-icon-instagram {  
+  width: 17px;
+  height: 18px;
+  fill: #292F36;
+}
+
+.footer-icon-instagram:hover {
+  fill: #CDA274;
 }
 
 .footer-container {
