@@ -86,6 +86,34 @@ body {
   height: 71px;
   border-radius: 18px;
   background-color: #292F36;
+
+  animation: heartBeat 6s ease-in-out 4s infinite both;
+}
+
+@keyframes heartBeat {
+  0% {
+    transform: scale(1);
+  }
+
+  5% {
+    transform: scale(1.2);
+  }
+
+  10% {
+    transform: scale(1);
+  }
+
+  18% {
+    transform: scale(1.5);
+  }
+
+  20% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .hero-icon {
