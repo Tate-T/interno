@@ -1,0 +1,155 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 36px;
+  }
+  
+  .footer-text {
+    width: 326px;
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+    margin-right: 83px;
+  }
+  
+  .footer-title {
+    width: 65px;
+    color: #292f36;
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+    margin-bottom: 21px;
+  }
+  
+  .footer-info {
+    width: 114px;
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+  }
+  
+  .footer-adress {
+    width: 321px;
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+    font-style: normal;
+  }
+  
+  .logo {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .footer-icons {
+    display: flex;
+    margin-top: 30px;
+    gap: 40px;
+  }
+  
+  .footer-icon-facebook {
+    width: 10px;
+    height: 19px;
+    fill: #292F36;
+  }
+  
+  .footer-icon-facebook:hover {
+    fill: #CDA274;
+  }
+  
+  .footer-icon-twitter {
+    width: 18px;
+    height: 15px;
+    fill: #292F36;
+  }
+  
+  .footer-icon-twitter:hover {
+    fill: #CDA274;
+  }
+  
+  .footer-icon-linkedin {
+    width: 16px;
+    height: 17px;
+    fill: #292F36;
+  }
+  
+  .footer-icon-linkedin:hover {
+    fill: #CDA274;
+  }
+  
+  .footer-icon-instagram {  
+    width: 17px;
+    height: 18px;
+    fill: #292F36;
+  }
+  
+  .footer-icon-instagram:hover {
+    fill: #CDA274;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-list {
+    display: flex;
+    gap: 60px;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    margin-bottom: 146px;
+  }
+  
+  .footer-telephone {
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+  }
+  
+  .footer-mail {
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+  }
+  
+  .copyright {
+    color: #4d5053;
+    text-align: center;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+    border-top: solid #e5e5e5;
+    padding-top: 35px;
+  }
+  
+  .yellow {
+    color: #cda274;
+    text-align: center;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+  }

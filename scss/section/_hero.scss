@@ -1,0 +1,78 @@
+
+.hero {
+    padding-top: 188px;
+    padding-bottom: 260px;
+    background-image: url(../images/hero-bc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .hero-title {
+    color: #292f36;
+    font-family: "DM Serif Display";
+    font-size: 80px;
+    line-height: 1.2;
+    letter-spacing: 0.22px;
+    max-width: 595px;
+  }
+  
+  .hero-text {
+    color: #4d5053;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+    margin-top: 19px;
+    max-width: 577px;
+  }
+  
+  .hero-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.72px;
+    margin-top: 35px;
+    width: 207px;
+    height: 71px;
+    border-radius: 18px;
+    background-color: #292F36;
+  
+    animation: heartBeat 6s ease-in-out 4s infinite both;
+  }
+  
+  @keyframes heartBeat {
+    0% {
+      transform: scale(1);
+    }
+  
+    5% {
+      transform: scale(1.2);
+    }
+  
+    10% {
+      transform: scale(1);
+    }
+  
+    18% {
+      transform: scale(1.5);
+    }
+  
+    20% {
+      transform: scale(1);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .hero-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    fill: transparent;
+  }

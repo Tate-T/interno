@@ -1,0 +1,89 @@
+.projects {
+    padding-top: 100px;
+    padding-bottom: 140px;
+  }
+  
+  .projects-title {
+    color: #292f36;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 47px;
+  
+    line-height: 1.32;
+    letter-spacing: 0.22px;
+    margin-bottom: 20px;
+  }
+  
+  .projects-text {
+    color: #4d5053;
+    text-align: center;
+    font-size: 22px;
+  
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+    margin-bottom: 71px;
+    max-width: 786px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px 20px;
+  }
+  
+  .projects-list-item:hover {
+    border-radius: 0px 80px 0px 0px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  }
+  
+  .projects-img {
+    max-width: 590px;
+  }
+  
+  .projects-name {
+    color: #292f36;
+    font-family: DM Serif Display;
+    font-size: 24px;
+  
+    line-height: 1.56;
+    letter-spacing: 0.22px;
+    margin-top: 24px;
+  }
+  
+  .projects-type {
+    color: #4d5053;
+    font-size: 22px;
+  
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+  }
+  
+  .projects-list-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .projects-button {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    background: #f4f0ec;
+  }
+  
+  .projects-button:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .projects-button:hover .projects-arrow {
+    stroke: #CDA274;
+  }
+  
+  .projects-arrow {
+    width: 9px;
+    height: 16px;
+    stroke: #292F36;
+    fill: none;
+  }

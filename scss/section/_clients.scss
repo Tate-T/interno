@@ -1,0 +1,63 @@
+.clients {
+    padding-top: 140px;
+  }
+  
+  .clients-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .clients-modern-home {
+    fill: #292F36;
+    width: 132px;
+    height: 43px;
+  }
+  
+  .clients-modern-home:hover {
+    fill: #CDA274;
+  }
+  
+  .clients-icon-vs {
+    width: 103px;
+    height: 103px;
+    fill: white;
+   stroke: #292F36;
+  }
+  
+  .clients-icon-vs:hover {  
+    fill: #CDA274;
+    stroke: black;
+  }
+  
+  .clients-icon-brand { 
+    width: 154px;
+    height: 43px;
+    fill: #292F36;
+    stroke: white;
+  }
+  
+  .clients-icon-brand:hover {
+    fill: #CDA274;
+    stroke: black;
+  }
+  
+  .clients-nature-home {
+    width: 145px;
+    height: 45px;
+    fill: #292F36;
+  }
+  
+  .clients-nature-home:hover {
+    fill: #CDA274;
+  }
+  
+  .clients-icon-classic {
+    width: 117px;
+    height: 48px;
+    fill: #292F36;
+  }
+  
+  .clients-icon-classic:hover {
+    fill: #CDA274;
+  }

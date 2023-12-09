@@ -1,0 +1,32 @@
+.photo {
+    max-width: 177px;
+  }
+  
+  .header-link {
+    color: #292f36;
+    font-size: 19px;
+    line-height: 1.57;
+    letter-spacing: 0.4px;
+  }
+  
+  .header-link:hover {
+    color: #cda274;
+    font-size: 19px;
+  }
+  
+  .header-list {
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+    align-items: center;
+  }
+  
+  .header-box {
+    display: flex;
+  }
+  
+  .header {
+    padding-top: 26px;
+    padding-bottom: 18px;
+  }
+  

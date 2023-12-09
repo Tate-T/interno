@@ -1,0 +1,115 @@
+.blogs {
+    padding: 142px 0;
+  }
+  
+  .blogs-title {
+    color: #292f36;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    line-height: 1.3;
+    letter-spacing: 0.22px;
+    margin-bottom: 21px;
+  }
+  
+  .blogs-text {
+    color: #4d5053;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+    max-width: 589px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+  }
+  
+  .blogs-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 40px;
+    /* margin-right: -20px;
+    margin-bottom: -40px; */
+  }
+  
+  .blogs-item {
+    flex-basis: calc((100% - (20px * 2)) / 3);
+    border-radius: 62px;
+    border: 1px solid #e7e7e7;
+    padding: 21px 21px 41px;
+    /* margin-right: 20px;
+    margin-bottom: 40px; */
+  }
+  
+  .blogs-item:hover {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  }
+  
+  /* .blogs-item:nth-child(3n) {
+    margin-right: 0;
+  }
+  
+  .blogs-item:nth-child(n+3) {
+    margin-bottom: 0;
+  } */
+  
+  .blogs-img {
+    width: 345px;
+    height: 296px;
+  }
+  
+  .blogs-btn {
+    color: #4d5053;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+    border-radius: 8px 8px 8px 0px;
+    background-color: #fff;
+    padding: 9px 10px 11px;
+  }
+  
+  .blogs-click:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .blogs-click:hover .blogs-arrow {
+    fill: none;
+    stroke: #CDA274;
+  }
+  
+  .blogs-arrow {
+    width: 9px;
+    height: 16px;
+    fill: none;
+    stroke: #292F36;
+  }
+  
+  .blogs-subtitle {
+    color: #292f36;
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+  }
+  
+  .blogs-box {
+    display: flex;
+    align-items: center;
+    gap: 149px;
+  }
+  
+  .blogs-time {
+    color: #4d5053;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+  }
+  
+  .blogs-click {
+    border-radius: 100px;
+    background-color: #f4f0ec;
+    padding: 18px 22px 18px 21px;
+  }
+  
