@@ -28,7 +28,7 @@
   }
   
   .projects-list {
-    display: flex;
+    @extend %list-position;
     flex-wrap: wrap;
     gap: 60px 20px;
   }
@@ -61,9 +61,7 @@
   }
   
   .projects-list-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @extend %list-position;
   }
   
   .projects-button {

@@ -40,6 +40,32 @@ body {
   font-weight: 400;
 }
 
+.footer-container, .numbers-list, .projects-list-container, .projects-list, .team-list, .info .container, .advice-list, .header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@keyframes heartBeat {
+  0% {
+    transform: scale(1);
+  }
+  5% {
+    transform: scale(1.2);
+  }
+  10% {
+    transform: scale(1);
+  }
+  18% {
+    transform: scale(1.5);
+  }
+  20% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .photo {
   max-width: 177px;
 }
@@ -57,10 +83,8 @@ body {
 }
 
 .header-list {
-  display: flex;
   gap: 40px;
   margin-left: auto;
-  align-items: center;
 }
 
 .header-box {
@@ -75,7 +99,7 @@ body {
 .hero {
   padding-top: 188px;
   padding-bottom: 260px;
-  background-image: url(../images/hero-bc.png);
+  background-image: url(../../images/hero-bc.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -115,26 +139,6 @@ body {
   animation: heartBeat 6s ease-in-out 4s infinite both;
 }
 
-@keyframes heartBeat {
-  0% {
-    transform: scale(1);
-  }
-  5% {
-    transform: scale(1.2);
-  }
-  10% {
-    transform: scale(1);
-  }
-  18% {
-    transform: scale(1.5);
-  }
-  20% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 .hero-icon {
   position: absolute;
   top: 50%;
@@ -144,7 +148,6 @@ body {
 }
 
 .advice-list {
-  display: flex;
   flex-direction: row;
 }
 
@@ -178,7 +181,7 @@ body {
 }
 
 .advice-arrow {
-  stroke: #CDA274;
+  stroke: #cda274;
   fill: none;
 }
 
@@ -199,12 +202,6 @@ body {
 .advice-section {
   padding-top: 100px;
   padding-bottom: 100px;
-}
-
-.info .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .info-title {
@@ -325,7 +322,6 @@ body {
 }
 
 .team-list {
-  display: flex;
   gap: 18px;
 }
 
@@ -459,7 +455,6 @@ body {
 }
 
 .projects-list {
-  display: flex;
   flex-wrap: wrap;
   gap: 60px 20px;
 }
@@ -489,12 +484,6 @@ body {
   letter-spacing: 0.22px;
 }
 
-.projects-list-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .projects-button {
   width: 70px;
   height: 70px;
@@ -521,11 +510,6 @@ body {
   padding-top: 140px;
   background-color: #f4f0ec;
   padding-bottom: 140px;
-}
-
-.numbers-list {
-  display: flex;
-  justify-content: space-between;
 }
 
 .numbers-item {
@@ -818,11 +802,6 @@ body {
 
 .footer-icon-instagram:hover {
   fill: #CDA274;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-between;
 }
 
 .footer-list {

@@ -15,10 +15,9 @@
   }
   
   .header-list {
-    display: flex;
+    @extend %list-position;
     gap: 40px;
     margin-left: auto;
-    align-items: center;
   }
   
   .header-box {

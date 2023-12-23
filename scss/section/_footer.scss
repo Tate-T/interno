@@ -98,8 +98,7 @@
   }
   
   .footer-container {
-    display: flex;
-    justify-content: space-between;
+    @extend %list-position;
   }
   
   .footer-list {

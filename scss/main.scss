@@ -1,6 +1,11 @@
 @import './common/reset';
 @import './common/base';
 
+@import "./utils/vars";
+@import "./utils/mixins";
+@import "./utils/placeholders";
+@import "./utils/keyframes";
+
 @import './section/header';
 @import './section/hero';
 @import './section/advice';
