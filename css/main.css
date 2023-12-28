@@ -143,12 +143,12 @@ body {
   fill: transparent;
 }
 
-.advice-list {
+.advice__list {
   display: flex;
   flex-direction: row;
 }
 
-.advice-title {
+.advice__title {
   color: #292f36;
   text-align: center;
   font-family: DM Serif Display;
@@ -157,7 +157,7 @@ body {
   margin-bottom: 17px;
 }
 
-.advice-subtitle {
+.advice__subtitle {
   color: #4d5053;
   text-align: center;
   font-size: 22px;
@@ -166,7 +166,7 @@ body {
   margin-bottom: 68px;
 }
 
-.advice-link {
+.advice__link {
   color: #4d5053;
   font-size: 18px;
   letter-spacing: 0.36px;
@@ -177,17 +177,17 @@ body {
   gap: 6px;
 }
 
-.advice-arrow {
+.advice__arrow {
   stroke: #CDA274;
   fill: none;
 }
 
-.advice-arrow:hover {
+.advice__arrow:hover {
   stroke: #5e4e3d;
   fill: none;
 }
 
-.advice-item {
+.advice__item {
   text-align: center;
   max-width: 400px;
   padding-top: 75px;
@@ -196,7 +196,7 @@ body {
   padding-right: 52px;
 }
 
-.advice-section {
+.advice {
   padding-top: 100px;
   padding-bottom: 100px;
 }
