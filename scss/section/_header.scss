@@ -9,9 +9,7 @@
     }
     &__link {
       color: #292f36;
-      font-size: 19px;
-      line-height: 1.57;
-      letter-spacing: 0.4px;
+      @include text-styles(19px, 1.57, 0.4px);
       &:hover {
         color: #cda274;
         font-size: 19px;

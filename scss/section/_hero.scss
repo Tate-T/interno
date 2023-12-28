@@ -1,52 +1,41 @@
-
 .hero {
-    padding-top: 188px;
-    padding-bottom: 260px;
-    background-image: url(../../images/hero-bc.png);
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  
-  .hero-title {
-    color: #292f36;
+  padding-top: 188px;
+  padding-bottom: 260px;
+  background-image: url(../../images/hero-bc.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  &__title {
+    color: $title-color;
     font-family: "DM Serif Display";
-    font-size: 80px;
-    line-height: 1.2;
-    letter-spacing: 0.22px;
+    @include text-styles(80px, 1.2)
     max-width: 595px;
   }
-  
-  .hero-text {
-    color: #4d5053;
-    font-size: 22px;
-    line-height: 1.5;
-    letter-spacing: 0.22px;
+  &__text {
+    color: $text-color;
+    @include text-styles(22px)
     margin-top: 19px;
     max-width: 577px;
   }
-  
-  .hero-button {
+  &__button {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
-    font-size: 18px;
-    line-height: 1.5;
-    letter-spacing: 0.72px;
+    @include text-styles(18px, 0.72px)
     margin-top: 35px;
     width: 207px;
     height: 71px;
     border-radius: 18px;
-    background-color: #292F36;
-  
+    background-color: $title-color;
+
     animation: heartBeat 6s ease-in-out 4s infinite both;
   }
-  
-  .hero-icon {
+  &__icon {
     position: absolute;
     top: 50%;
     left: 50%;
     background-color: #fff;
     fill: transparent;
   }
+}
