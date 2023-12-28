@@ -27,7 +27,7 @@
   }
   
   .team-list {
-    display: flex;
+    @extend %list-position;
     gap: 18px;
   }
   

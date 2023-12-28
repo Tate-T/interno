@@ -5,8 +5,7 @@
   }
   
   .numbers-list {
-    display: flex;
-    justify-content: space-between;
+    @extend %list-position;
   }
   
   .numbers-item {

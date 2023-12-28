@@ -1,0 +1,25 @@
+@keyframes heartBeat {
+	0% {
+		transform: scale(1);
+	}
+
+	5% {
+		transform: scale(1.2);
+	}
+
+	10% {
+		transform: scale(1);
+	}
+
+	18% {
+		transform: scale(1.5);
+	}
+
+	20% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
